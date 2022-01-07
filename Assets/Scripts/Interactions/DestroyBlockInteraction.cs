@@ -2,14 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyBlockInteraction : MonoBehaviour , Interaction
+public class DestroyBlockInteraction : MonoBehaviour , IInteractable
 {
     private GridController gridController;
 
+    public bool CanInteract()
+    {
+        // Do not refuse interaction.
+        return true;
+    }
+
     public void Interact()
     {
-        Debug.Log("Interaction... buggy but works");
-        //gridController = GameObject.FindGameObjectWithTag("GridController").GetComponent<GridController>();
-        //gridController.RemoveGameObjectAtPosition(transform.position);
+        Debug.Log($"Removing game object at {transform.position}");
+        gridController = GameObject.FindGameObjectWithTag("GridController").GetComponent<GridController>();
+        gridController.RemoveGameObjectAtPosition(transform.position);
     }
 }

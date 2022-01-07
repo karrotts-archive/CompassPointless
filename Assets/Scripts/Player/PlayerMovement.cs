@@ -20,17 +20,12 @@ public class PlayerMovement : MonoBehaviour
             //interaction testing
             GridController gridController = GameObject.FindGameObjectWithTag("GridController").GetComponent<GridController>();
 
-            GameObject closest = null;
-            foreach (GridItem item in gridController.GridItems)
+            GameObject closest = gridController.GetClosestAtPosition(transform.position);
+            
+            foreach (IInteractable item in closest.GetComponents<IInteractable>()) 
             {
-                closest = closest == null ? item.gameObject : closest;
-                if (Vector2.Distance(transform.position, closest.transform.position) > Vector2.Distance(transform.position, item.gameObject.transform.position))
-                {
-                    closest = item.gameObject;
-                }
+                item.Interact();
             }
-
-            closest.GetComponent<InteractionHandler>().Interact();
         }
 
         // ALLL dis is gross but works as intended right now. SO maybe we change later? K.

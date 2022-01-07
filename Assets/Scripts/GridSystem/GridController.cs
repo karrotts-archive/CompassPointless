@@ -73,14 +73,9 @@ public class GridController : MonoBehaviour
     public bool CanPlaceBlock()
     {
         Vector2 pos = GetGridPosFromMousePosition();
-        bool canPlace = false;
-        if (IsGridSpaceAvailable(pos)
-            && !Marker.GetComponent<MarkerCollision>().IsCollidingWithPlayer
-            && buildEnabled)
-        {
-            canPlace = true;
-        }
-        return canPlace;
+        return (!Marker.GetComponent<MarkerCollision>().IsCollidingWithPlayer
+            && IsGridSpaceAvailable(pos)
+            && buildEnabled);
     }
 
     /// <summary>
@@ -93,10 +88,8 @@ public class GridController : MonoBehaviour
         {
             GridItem gridItem = new GridItem();
             gridItem.Position = GetGridPosFromMousePosition();
-            gridItem.gameObject = gameObject;
+            gridItem.gameObject = Instantiate(gameObject, GetGridPosFromMousePosition(), Quaternion.identity);
             GridItems.Add(gridItem);
-
-            Instantiate(gameObject, GetGridPosFromMousePosition(), Quaternion.identity);
         }
     }
 
@@ -114,6 +107,25 @@ public class GridController : MonoBehaviour
             }
         }
         return null;
+    }
+
+    /// <summary>
+    /// Finds and returns the closest game object at a position.
+    /// </summary>
+    /// <param name="position"></param>
+    /// <returns></returns>
+    public GameObject GetClosestAtPosition(Vector2 position) 
+    {
+        GameObject closest = null;
+        foreach(GridItem item in GridItems)
+        {
+            closest = closest == null ? item.gameObject : closest;
+            if (Vector2.Distance(item.Position, position) < Vector2.Distance(closest.transform.position, position))
+            {
+                closest = item.gameObject;
+            }
+        }
+        return closest;
     }
 
     /// <summary>
@@ -136,9 +148,10 @@ public class GridController : MonoBehaviour
         {
             if (position.Equals(item.Position))
             {
+                Destroy(item.gameObject);
                 GridItems.Remove(item);
+                break;
             }
-            Destroy(item.gameObject);
         }
     }
 

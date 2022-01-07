@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 779253516018297453}
   - component: {fileID: -8159486585729393618}
   - component: {fileID: -452661364210347092}
-  - component: {fileID: 5925160139320250515}
-  - component: {fileID: 7609920638333821861}
+  - component: {fileID: 2431860695228511791}
   - component: {fileID: 4800714388289226569}
   m_Layer: 6
   m_Name: Wall
@@ -129,20 +128,7 @@ MonoBehaviour:
   CanMove: 0
   StopWhenReachedTarget: 1
   StopDistance: 2
---- !u!114 &5925160139320250515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779253516018297452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb83cfee8ddfaf148a88a63a915b4272, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CanCurrentlyInteract: 1
---- !u!114 &7609920638333821861
+--- !u!114 &2431860695228511791
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,4 +152,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77a2d6fbc2d416244875100f38f7f04f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Message: 
+  Message: Hello Blocky
