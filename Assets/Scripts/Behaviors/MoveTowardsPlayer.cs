@@ -5,9 +5,10 @@ using UnityEngine;
 public class MoveTowardsPlayer : MonoBehaviour
 {
     public GameObject Player;
-    public bool Move = false;
+    public bool CanMove = false;
+    public bool StopWhenReachedTarget = true;
+    public float StopDistance = 1f;
 
-    // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.FindWithTag("Player");
@@ -16,7 +17,8 @@ public class MoveTowardsPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Move)
+        //StopDistance = Random.Range(1, 3);
+        if (CanMove)
         {
             Vector2 moveDir;
             Vector2 movement = transform.position;
@@ -25,6 +27,12 @@ public class MoveTowardsPlayer : MonoBehaviour
 
             moveDir = (Player.transform.position - transform.position).normalized;
             movement += moveDir * 5 * Time.deltaTime;
+
+            if (StopWhenReachedTarget && Vector2.Distance(Player.transform.position, movement) < StopDistance)
+            {
+                movement = transform.position;
+            } 
+            
             transform.position = movement;
         }
     }
