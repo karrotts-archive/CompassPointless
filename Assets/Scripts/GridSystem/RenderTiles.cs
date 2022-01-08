@@ -10,17 +10,16 @@ public class RenderTiles : MonoBehaviour
     public Color AttackColor;
 
     private List<GridTile> tiles;
-    // Start is called before the first frame update
-    void Start()
+
+    public void Render(int tileIndex) 
     {
+        ClearTiles();
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         
-        tiles = LoadDataFiles.GetLoadedTiles();
+        tiles = LoadPatterns.Load(tileIndex);
 
-        //Debug.Log(tiles.Count);
         foreach (GridTile tile in tiles) 
         {
-            Debug.Log(tile.Type);
             if (tile.Type == TileType.NONE || tile.Type == TileType.PLAYER) continue;
 
             Vector2 placePos = (Vector2)player.transform.position + tile.Position;
@@ -32,6 +31,7 @@ public class RenderTiles : MonoBehaviour
             {
                 placedItem = Instantiate(Marker, placePos, Quaternion.identity);
                 placedItem.GetComponent<SpriteRenderer>().color = MoveColor;
+                tile.Marker = placedItem;
                 continue;
             }
 
@@ -39,9 +39,24 @@ public class RenderTiles : MonoBehaviour
             {
                 placedItem = Instantiate(Marker, placePos, Quaternion.identity);
                 placedItem.GetComponent<SpriteRenderer>().color = AttackColor;
+                tile.Marker = placedItem;
                 continue;
             }
         }
+    }
 
+    public void ClearTiles()
+    {
+        if (tiles != null && tiles.Count > 0)
+        {
+            foreach(GridTile tile in tiles) 
+            {
+                if (tile.Marker != null) 
+                {
+                    Destroy(tile.Marker);
+                }
+            }
+            tiles = new List<GridTile>();
+        }
     }
 }

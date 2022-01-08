@@ -15,7 +15,8 @@ public class DestroyBlockInteraction : MonoBehaviour , IInteractable
     public void Interact()
     {
         Debug.Log($"Removing game object at {transform.position}");
-        gridController = GameObject.FindGameObjectWithTag("GridController").GetComponent<GridController>();
-        gridController.RemoveGameObjectAtPosition(transform.position);
+        GameObject item = GridSystem.GetGameObjectAtPosition(transform.position);
+        Destroy(item);
+        GridSystem.RemoveGameObjectAtPosition(transform.position);
     }
 }

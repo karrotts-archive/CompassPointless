@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
             //interaction testing
             GridController gridController = GameObject.FindGameObjectWithTag("GridController").GetComponent<GridController>();
 
-            GameObject closest = gridController.GetClosestAtPosition(transform.position);
+            GameObject closest = GridSystem.GetClosestAtPosition(transform.position);
             
             foreach (IInteractable item in closest.GetComponents<IInteractable>()) 
             {
