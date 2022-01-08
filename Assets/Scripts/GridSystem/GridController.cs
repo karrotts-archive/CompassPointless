@@ -190,3 +190,17 @@ public class GridItem
     public Vector2 Position;
     public GameObject gameObject;
 }
+
+public enum TileType 
+{
+    NONE,
+    MOVEMENT,
+    ATTACK,
+    PLAYER
+}
+
+public class GridTile
+{
+    public Vector2 Position;
+    public TileType Type;
+}
