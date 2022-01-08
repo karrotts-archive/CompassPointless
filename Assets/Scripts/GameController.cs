@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public GameObject GridControllerObject;
+    public GameObject DebugUI;
     public GameObject Wall;
 
     private GridController GridController;
@@ -17,6 +18,9 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            DebugUI.SetActive(!DebugUI.activeSelf);
+        }
     }
 }

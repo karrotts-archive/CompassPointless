@@ -5,9 +5,10 @@ using UnityEngine;
 public class RenderTiles : MonoBehaviour
 {
     public GameObject Marker;
+    public GameObject AttackMarker;
 
     public Color MoveColor;
-    public Color AttackColor;
+    //public Color AttackColor;
 
     private List<GridTile> tiles;
 
@@ -23,8 +24,12 @@ public class RenderTiles : MonoBehaviour
             if (tile.Type == TileType.NONE || tile.Type == TileType.PLAYER) continue;
 
             Vector2 placePos = (Vector2)player.transform.position + tile.Position;
-            //for now I am not going to worry about storage of these tokens.
-            //probably will need to since I will need to check if it is a valid spot
+            tile.Position = placePos;
+
+            if (GridSystem.GetGameObjectAtPosition(tile.Position) != null)
+            {
+                continue;
+            }
 
             GameObject placedItem;
             if (tile.Type == TileType.MOVEMENT)
@@ -37,8 +42,7 @@ public class RenderTiles : MonoBehaviour
 
             if (tile.Type == TileType.ATTACK)
             {
-                placedItem = Instantiate(Marker, placePos, Quaternion.identity);
-                placedItem.GetComponent<SpriteRenderer>().color = AttackColor;
+                placedItem = Instantiate(AttackMarker, placePos, Quaternion.identity);
                 tile.Marker = placedItem;
                 continue;
             }
@@ -58,5 +62,21 @@ public class RenderTiles : MonoBehaviour
             }
             tiles = new List<GridTile>();
         }
+    }
+
+    public GridTile GetTileAtLocation(Vector2 pos)
+    {
+        if (tiles != null && tiles.Count > 0) 
+        {
+            foreach(GridTile tile in tiles)
+            {
+                //Debug.Log("");
+                if (tile.Position.Equals(pos))
+                {
+                    return tile;
+                }
+            }
+        }
+        return null;
     }
 }

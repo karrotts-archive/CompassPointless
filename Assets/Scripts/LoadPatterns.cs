@@ -17,8 +17,8 @@ public static class LoadPatterns
             for (int j = 0; j < 11; j++) 
             {
                 GridTile tile = new GridTile();
-                tile.Position.y = 5 - i;
-                tile.Position.x = j - 5;
+                tile.Position.y = i - 5;
+                tile.Position.x = 5 - j;
 
                 Color posColor = patterns.GetPixel(x + j, y + i);
                 if (posColor.Equals(Color.black))
