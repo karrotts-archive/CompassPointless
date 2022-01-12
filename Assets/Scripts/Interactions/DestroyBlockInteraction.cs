@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DestroyBlockInteraction : MonoBehaviour , IInteractable
 {
-    private GridController gridController;
 
     public bool CanInteract()
     {
@@ -14,9 +13,5 @@ public class DestroyBlockInteraction : MonoBehaviour , IInteractable
 
     public void Interact()
     {
-        Debug.Log($"Removing game object at {transform.position}");
-        GameObject item = GridSystem.GetGameObjectAtPosition(transform.position);
-        Destroy(item);
-        GridSystem.RemoveGameObjectAtPosition(transform.position);
     }
 }

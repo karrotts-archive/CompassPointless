@@ -15,19 +15,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            //interaction testing
-            GridController gridController = GameObject.FindGameObjectWithTag("GridController").GetComponent<GridController>();
-
-            GameObject closest = GridSystem.GetClosestAtPosition(transform.position);
-            
-            foreach (IInteractable item in closest.GetComponents<IInteractable>()) 
-            {
-                item.Interact();
-            }
-        }
-
         // ALLL dis is gross but works as intended right now. SO maybe we change later? K.
         Vector2 dir = Vector2.zero;
         if (Input.GetKey(KeyCode.A))

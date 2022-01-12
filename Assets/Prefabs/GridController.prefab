@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1497892404491593652}
   - component: {fileID: 1497892404491593655}
+  - component: {fileID: 5803800760253756910}
   m_Layer: 0
   m_Name: GridController
   m_TagString: GridController
@@ -45,10 +46,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Marker: {fileID: 1497892404827712485}
-  AvailableLocationColor: {r: 0.07772317, g: 0.7075472, b: 0, a: 0.79607844}
+  AvailableLocationColor: {r: 1, g: 1, b: 1, a: 0.79607844}
   UnavailableLocationColor: {r: 0.7169812, g: 0, b: 0, a: 0.7372549}
-  InteractableLocationColor: {r: 0, g: 0.08652267, b: 0.7075472, a: 0.64705884}
   ShowGridPlacementMarker: 1
+--- !u!114 &5803800760253756910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497892404491593654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ca0a3feefb12743aed810bb40ea45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMarker: {fileID: 299768799125953462, guid: 24037ba46961c4d4996a7c6a0bfba99b,
+    type: 3}
+  AttackMarker: {fileID: 2517316558816876688, guid: 48de0dcf3f98f3e4589ded8b3c68705d,
+    type: 3}
 --- !u!1 &1497892404827712485
 GameObject:
   m_ObjectHideFlags: 0
@@ -60,7 +76,7 @@ GameObject:
   - component: {fileID: 1497892404827712491}
   - component: {fileID: 1497892404827712490}
   - component: {fileID: 1497892404827712489}
-  - component: {fileID: 1497892404827712488}
+  - component: {fileID: 302698563}
   m_Layer: 7
   m_Name: Marker
   m_TagString: Untagged
@@ -122,7 +138,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7,
+  m_Sprite: {fileID: 7034886036368190083, guid: 82ce37f35f7e0f447998ddef5baba19d,
     type: 3}
   m_Color: {r: 0.8867924, g: 0.83590454, b: 0.33882165, a: 0.5019608}
   m_FlipX: 0
@@ -160,16 +176,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9, y: 0.9}
   m_EdgeRadius: 0
---- !u!114 &1497892404827712488
-MonoBehaviour:
+--- !u!95 &302698563
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497892404827712485}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb213b062943be04490f5fe34b956062, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsCollidingWithPlayer: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 35df10a757696e74b97854170ebc91ba, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

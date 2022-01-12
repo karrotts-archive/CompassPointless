@@ -4,21 +4,14 @@ using UnityEngine;
 
 public class PlayerGridMovement : MonoBehaviour
 {
-    public RenderTiles tileRender;
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Moves the player to a position in the game world.
+    /// UPDATES THE GRID PLAYER ITEM
+    /// </summary>
+    public void MovePlayerToPosition(Vector2 worldPosition)
     {
-        tileRender = GameObject.FindGameObjectWithTag("GridController").GetComponent<RenderTiles>();
-    }
+        transform.position = worldPosition;
 
-    // Update is called once per frame
-    void Update()
-    {
-        GridTile tile = MarkerController.GetGridTile(GridSystem.GetGridPosFromMousePosition() - (Vector2)transform.position);
-        if (Input.GetMouseButtonDown(0) && tile != null && tile.Type == TileType.MOVEMENT) 
-        {
-            transform.position = tile.Position + (Vector2)transform.position;
-            MarkerController.ClearTiles();
-        }
+        //Move here
     }
 }

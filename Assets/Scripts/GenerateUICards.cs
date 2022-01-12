@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using KarrottEngine.GridSystem;
 
 public class GenerateUICards : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class GenerateUICards : MonoBehaviour
 
             GameObject cardObj = Instantiate(CardTemplate, new Vector3(x, 14, 0), Quaternion.identity);
 
-            cardObj.GetComponent<Button>().onClick.AddListener(() => MarkerController.RenderTiles(patternid));
+            cardObj.GetComponent<Button>().onClick.AddListener(() => KEGrid.LoadPattern(patternid, new Vector2(0,0)));
  
             // set title
             TMP_Text title = cardObj.transform.GetChild(0).GetComponent<TMP_Text>();
@@ -40,11 +41,5 @@ public class GenerateUICards : MonoBehaviour
 
             currentNum++;
         }
-        /**
-        basex = (screen witdth / 2) - ((cardwitdh + offset) * amount) - 
-
-        m = screen witdh / 2
-
-        */
     }
 }
