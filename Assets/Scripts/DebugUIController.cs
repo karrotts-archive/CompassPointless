@@ -19,17 +19,17 @@ public class DebugUIController : MonoBehaviour
 
     public void ShowPawnMovement()
     {
-        KEGrid.LoadPattern(0, player.EntityObject.transform.position);
+        EntityGridExtensions.RenderPlayerTiles(0);
     }
 
     public void ShowRookMovement()
     {
-        KEGrid.LoadPattern(2, player.EntityObject.transform.position);
+        EntityGridExtensions.RenderPlayerTiles(2);
     }
 
     public void ShowBishopMovement()
     {
-        KEGrid.LoadPattern(1, player.EntityObject.transform.position);
+        EntityGridExtensions.RenderPlayerTiles(1);
     }
 
     public void Clear()

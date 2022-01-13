@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     public GameObject Marker;
     public GameObject Player;
     public GameObject Enemy;
+    public GameObject Wall;
     public GameObject DebugUI;
     public GameObject PlayUI;
 
@@ -26,6 +27,7 @@ public class GameController : MonoBehaviour
 
         // cardGen.Generate(deckManager.DealHand());
         KEGrid.CreateEntity(Player, EntityType.PLAYER, new Vector2(0,0));
+        KEGrid.CreateEntity(Wall, EntityType.ENVIRONMENT, new Vector2(1,2));
     }
 
     // Update is called once per frame
