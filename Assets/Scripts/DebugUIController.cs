@@ -29,7 +29,7 @@ public class DebugUIController : MonoBehaviour
 
     public void ShowBishopMovement()
     {
-        EntityGridExtensions.RenderPlayerTiles(1);
+        EntityGridExtensions.RenderPlayerTiles(13);
     }
 
     public void Clear()

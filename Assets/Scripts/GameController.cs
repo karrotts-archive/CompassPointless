@@ -28,6 +28,13 @@ public class GameController : MonoBehaviour
         // cardGen.Generate(deckManager.DealHand());
         KEGrid.CreateEntity(Player, EntityType.PLAYER, new Vector2(0,0));
         KEGrid.CreateEntity(Wall, EntityType.ENVIRONMENT, new Vector2(1,2));
+        KEGrid.CreateEntity(Wall, EntityType.ENVIRONMENT, new Vector2(-2,-2));
+        KEGrid.CreateEntity(Wall, EntityType.ENVIRONMENT, new Vector2(3,2));
+        KEGrid.CreateEntity(Wall, EntityType.ENVIRONMENT, new Vector2(3,-1));
+        KEGrid.CreateEntity(Wall, EntityType.ENVIRONMENT, new Vector2(1,-4));
+        KEGrid.CreateEntity(Wall, EntityType.ENVIRONMENT, new Vector2(-4,2));
+
+        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<TargetEntity>().Target = KEGrid.GetEntitiesByType(EntityType.PLAYER)[0];
     }
 
     // Update is called once per frame
