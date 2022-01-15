@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6186820753567849280}
   - component: {fileID: 6186820753567849281}
   m_Layer: 0
-  m_Name: TestDummy
+  m_Name: Blob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

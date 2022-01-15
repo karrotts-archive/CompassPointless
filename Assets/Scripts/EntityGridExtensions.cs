@@ -28,6 +28,9 @@ public static class EntityGridExtensions
             }
         }
 
+        RemoveBlockedPaths();
+        RemoveOutOfBounds();
+
         foreach (Tile tile in RenderTiles)
         {
             Renderer.RenderEntityFromTile(tile);
@@ -62,6 +65,32 @@ public static class EntityGridExtensions
                 if (next == null) return;
                 RenderPath(direction, current, next);
             }
+        }
+    }
+
+    public static void RemoveBlockedPaths()
+    {
+        List<Tile> copy = new List<Tile>(RenderTiles);
+        foreach (Tile tile in copy)
+        {
+            Entity[] ePos = KEGrid.GetEntitiesAtPosition(tile.Position);
+            if (ePos.ToList().Any(n=> n.Type == EntityType.ENVIRONMENT))
+            {
+                RenderTiles.Remove(tile);  
+            } 
+        }
+    }
+
+    public static void RemoveOutOfBounds()
+    {
+        List<Tile> copy = new List<Tile>(RenderTiles);
+        foreach (Tile tile in copy)
+        {
+            if (tile.Position.x >= 32 || tile.Position.x <= 0)
+                RenderTiles.Remove(tile);
+
+            if (tile.Position.y >= 32 || tile.Position.y <= 0)
+                RenderTiles.Remove(tile);
         }
     }
 
