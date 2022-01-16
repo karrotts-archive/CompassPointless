@@ -54,6 +54,18 @@ public class GameController : MonoBehaviour
                 break;
                 case TileType.ATTACK:
                     Debug.Log("Attacking...");
+                    Entity[] entities = KEGrid.GetEntitiesAtPosition(mousePos);
+                    if (entities.Length >= 1) 
+                    {
+                        foreach (Entity enemey in entities)
+                        {
+                            if(enemey.Type == EntityType.ENEMY && enemey.EntityObject.GetComponent<EntityManager>().TakeDamage(5))
+                            {
+                                KEGrid.DeleteEntity(enemey);
+                                break;
+                            }
+                        }
+                    }
                 break;
             }
         }

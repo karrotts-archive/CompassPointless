@@ -7,7 +7,7 @@ using UnityEngine;
 
 public static class EntityGridExtensions
 {
-    private static List<Tile> RenderTiles = new List<Tile>();
+    public static List<Tile> RenderTiles = new List<Tile>();
     private static GridRenderer Renderer = GameObject.FindGameObjectWithTag("GridController").GetComponent<GridRenderer>();
 
     public static void RenderPlayerTiles(int patternId)
@@ -54,11 +54,19 @@ public static class EntityGridExtensions
             }
 
             Entity[] ePos = KEGrid.GetEntitiesAtPosition(current.Position);
-            if (ePos.ToList().Any(n=> n.Type == EntityType.ENVIRONMENT))
+            if (ePos.ToList().Any(n=> n.Type == EntityType.ENVIRONMENT || n.Type == EntityType.ENEMY || n.Type == EntityType.PLAYER))
             {
-                RenderTiles.Remove(current);
-                if (next == null) return;
-                RenderPath(direction, null, next);   
+                if (current.Type == TileType.MOVE)
+                {
+                    RenderTiles.Remove(current);
+                    if (next == null) return;
+                    RenderPath(direction, null, next);
+                }
+                else
+                {
+                    if (next == null) return;
+                    RenderPath(direction, current, next);
+                }
             } 
             else
             {
@@ -77,7 +85,15 @@ public static class EntityGridExtensions
             if (ePos.ToList().Any(n=> n.Type == EntityType.ENVIRONMENT))
             {
                 RenderTiles.Remove(tile);  
-            } 
+            }
+
+            if (ePos.ToList().Any(n=> n.Type == EntityType.ENEMY))
+            {
+                if (tile.Type == TileType.MOVE)
+                {
+                    RenderTiles.Remove(tile); 
+                } 
+            }
         }
     }
 
@@ -103,7 +119,7 @@ public static class EntityGridExtensions
         return null;
     }
 
-    private static List<Tile> FilterOut(List<TileType> types)
+    public static List<Tile> FilterOut(List<TileType> types)
     {
         List<Tile> copy = new List<Tile>(RenderTiles);
         foreach(Tile tile in RenderTiles)
