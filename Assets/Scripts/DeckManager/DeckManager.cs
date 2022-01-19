@@ -30,19 +30,15 @@ public class DeckManager : MonoBehaviour
     public List<Card> DealHand(int amount)
     {
         List<Card> drawn = new List<Card>();
-
-        for (int i = 0; i < amount; i++)
+        int totalcards = DrawPile.Count + DiscardPile.Count;
+        amount = amount > totalcards ? totalcards : amount;
+        while (drawn.Count != amount)
         {
-            if (i >= DrawPile.Count - 1 && DiscardPile.Count > 0)
-            {
+            if (DrawPile.Count <= 0 && DiscardPile.Count > 0)
                 ResetDeck();
-            }
-            else if (i >= DrawPile.Count - 1)
-            {
-                continue;
-            }
-            drawn.Add(DrawPile[i]);
-            DrawPile.Remove(DrawPile[i]);
+
+            drawn.Add(DrawPile[0]);
+            DrawPile.Remove(DrawPile[0]);
         }
         Hand = drawn;
         return drawn;
@@ -61,7 +57,7 @@ public class DeckManager : MonoBehaviour
     public void ShuffleDraw()
     {
         List<Card> suffled = new List<Card>();
-        for (int i = 0; i < DrawPile.Count; i++)
+        while(DrawPile.Count > 0)
         {
             int r = Random.Range(0, DrawPile.Count);
             suffled.Add(DrawPile[r]);

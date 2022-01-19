@@ -14,7 +14,7 @@ public class PlayerRoundController : MonoBehaviour
     private GameObject choosenCardUI;
     private Card cardData;
     private RoundController roundController;
-    private int currentEnergy;
+    public int currentEnergy;
     private GenerateUICards cardGen;
     private List<GameObject> UICards;
     EntityMover mover;
@@ -33,7 +33,12 @@ public class PlayerRoundController : MonoBehaviour
         PlayerTurn = currentEnergy > 0 || mover.Moving;
         if (!PlayerTurn && UICards != null && UICards.Count > 0)
         {
+            Debug.Log("Player Turn");
             DestroyUICards();
+            foreach (Card card in deckManager.Hand)
+            {
+                deckManager.DiscardPile.Add(card);
+            }
         }
     }
 
@@ -121,5 +126,10 @@ public class PlayerRoundController : MonoBehaviour
                     break;
             }
         }
+    }
+
+    public void SetEnergy(int amount)
+    {
+        currentEnergy = amount;
     }
 }

@@ -19,6 +19,7 @@ public class EnemyProjectile : MonoBehaviour
         if (Vector2.Distance((Vector2)player.transform.position, (Vector2)transform.position) < .05f)
         {
             Destroy(gameObject);
+            player.GetComponent<EntityManager>().TakeDamage(1, false);
         }
     }
 }
