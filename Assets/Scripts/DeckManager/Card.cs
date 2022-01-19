@@ -1,15 +1,10 @@
-public class Card
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Card", order = 1)]
+public class Card : ScriptableObject
 {
     public int PatternId;
     public string CardName;
     public int HitDamage;
     public int EnergyCost;
-
-    public Card(int patternId, string cardName, int hit, int energy)
-    {
-        this.PatternId = patternId;
-        this.CardName = cardName;
-        this.HitDamage = hit;
-        this.EnergyCost = energy;
-    }
 }

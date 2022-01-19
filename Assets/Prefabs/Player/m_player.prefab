@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 341062834790573763}
   - component: {fileID: 4003547269192664291}
   - component: {fileID: 1456677068}
-  - component: {fileID: 1456677063}
   - component: {fileID: 852029494548534511}
+  - component: {fileID: -1930463331278154180}
+  - component: {fileID: 1999332588857843963}
+  - component: {fileID: 4010253932664295852}
   m_Layer: 0
   m_Name: m_player
   m_TagString: Player
@@ -74,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -8884524838970017340, guid: 17060964e367ef14fa230115f04540ad,
+  m_Sprite: {fileID: 4518225611054890064, guid: c8d70be2809276b4d883e7307651bc5a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.8156863}
   m_FlipX: 0
@@ -96,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 9066430508061095081}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 371fadde7940bc54a8a9b625d88cc16a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 44ed4e2a2d672c44089bedfa00101445, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -105,18 +107,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1456677063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9066430508061095081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ae7e3ea6db70dc45b572562607cec48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &852029494548534511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,3 +121,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 5
   Energy: 0
+--- !u!114 &-1930463331278154180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9066430508061095081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6546ad6eff67a5549b1abbb9a76637a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovePosition: {x: 0, y: 0}
+  Moving: 0
+--- !u!114 &1999332588857843963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9066430508061095081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc0e12b3dce06844910063b0a8849b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxEnergy: 3
+  PlayerTurn: 0
+--- !u!114 &4010253932664295852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9066430508061095081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7f265e77b28d5448fcfc69f44bc9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DrawPile: []
+  DiscardPile: []
+  Hand: []
+  CardBases:
+  - {fileID: 11400000, guid: bbac60a8850d5d24f89eeaeadc8da13b, type: 2}
+  - {fileID: 11400000, guid: a5a1a4011cc157c4582322f30c089240, type: 2}
+  - {fileID: 11400000, guid: 2ab08f158dd96f740b01f90ac44f0a84, type: 2}
+  - {fileID: 11400000, guid: 72fe50c3b3e84694e87e867c47f782b3, type: 2}
+  - {fileID: 11400000, guid: cd5a034c5a40f1c43ab188a8059f30e9, type: 2}

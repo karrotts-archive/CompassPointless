@@ -4,18 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using KarrottEngine.GridSystem;
+using KarrottEngine.EntitySystem;
 
 public class GenerateUICards : MonoBehaviour
 {
     public GameObject CardTemplate;
 
-    public void Generate(List<Card> cards)
+    public List<GameObject> Generate(List<Card> cards)
     {
+        List<GameObject> uicards = new List<GameObject>();
+        Entity player = KEGrid.GetEntitiesByType(EntityType.PLAYER)[0];
+        PlayerRoundController roundController = player.EntityObject.GetComponent<PlayerRoundController>();
+
         int currentNum = 0;
         foreach (Card card in cards) 
         {
             int patternid = card.PatternId;
-            Sprite pattern = Resources.LoadAll<Sprite>($"Data/Move_Patterns")[card.PatternId];
+            Sprite pattern = Resources.LoadAll<Sprite>($"Patterns/Move_Patterns")[card.PatternId];
             
             float width = CardTemplate.GetComponent<RectTransform>().rect.width;
             float screenOffset = (Screen.width / 2) - ((width * cards.Count) / 2);
@@ -23,7 +28,7 @@ public class GenerateUICards : MonoBehaviour
 
             GameObject cardObj = Instantiate(CardTemplate, new Vector3(x, 14, 0), Quaternion.identity);
 
-            cardObj.GetComponent<Button>().onClick.AddListener(() => KEGrid.LoadPattern(patternid, new Vector2(0,0)));
+            cardObj.GetComponent<Button>().onClick.AddListener(() => roundController.DisplayMove(card.PatternId, cardObj, card));
  
             // set title
             TMP_Text title = cardObj.transform.GetChild(0).GetComponent<TMP_Text>();
@@ -37,9 +42,13 @@ public class GenerateUICards : MonoBehaviour
             TMP_Text energy = cardObj.transform.GetChild(2).GetComponent<TMP_Text>();
             energy.text = $"Energy: {card.EnergyCost}";
 
-            cardObj.transform.SetParent(transform, false);
+            TMP_Text attack = cardObj.transform.GetChild(3).GetComponent<TMP_Text>();
+            attack.text = $"Attack: {card.HitDamage}";
 
+            cardObj.transform.SetParent(transform, false);
+            uicards.Add(cardObj);
             currentNum++;
         }
+        return uicards;
     }
 }

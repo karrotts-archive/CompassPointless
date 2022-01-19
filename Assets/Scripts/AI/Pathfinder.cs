@@ -16,10 +16,7 @@ public class Pathfinder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            FindPath(transform.position, KEGrid.GetEntitiesByType(EntityType.PLAYER)[0].EntityObject.transform.position);
-        }
+
     }
 
     Vector2[] LoadNeighbors()
@@ -55,7 +52,7 @@ public class Pathfinder : MonoBehaviour
         return nodes;
     }
 
-    List<Node> FindPath(Vector2 startPosition, Vector2 endPosition)
+    public List<Node> FindPath(Vector2 startPosition, Vector2 endPosition)
     {
         Node start = new Node(startPosition);
         Node end = new Node(endPosition);
@@ -142,7 +139,7 @@ public class Node
     public Node(Vector2 position)
     {
         Position = position;
-        Walkable = !KEGrid.GetEntitiesAtPosition(position).Any(n => EntityType.ENVIRONMENT == n.Type);
+        Walkable = !KEGrid.GetEntitiesAtPosition(position).Any(n => EntityType.ENVIRONMENT == n.Type || n.Type == EntityType.ENEMY || n.Type == EntityType.PLAYER);
     }
 
     public int fCost

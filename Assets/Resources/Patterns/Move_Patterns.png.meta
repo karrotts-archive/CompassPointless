@@ -1,7 +1,307 @@
 fileFormatVersion: 2
 guid: d3899baaea6613242a14aa0149ebe71d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 264800678028556159
+    second: Move_Patterns_0
+  - first:
+      213: -2692093700909299976
+    second: Move_Patterns_1
+  - first:
+      213: 3901878040963645589
+    second: Move_Patterns_2
+  - first:
+      213: 7767076076937128909
+    second: Move_Patterns_3
+  - first:
+      213: -8158918712573739865
+    second: Move_Patterns_4
+  - first:
+      213: 12146033137768768
+    second: Move_Patterns_5
+  - first:
+      213: -6902554095777584380
+    second: Move_Patterns_6
+  - first:
+      213: -1876826496525308117
+    second: Move_Patterns_7
+  - first:
+      213: 396880639669844099
+    second: Move_Patterns_8
+  - first:
+      213: 4955317180299975976
+    second: Move_Patterns_9
+  - first:
+      213: -6099388646708805088
+    second: Move_Patterns_10
+  - first:
+      213: 6784597204425269282
+    second: Move_Patterns_11
+  - first:
+      213: -7861271967990671354
+    second: Move_Patterns_12
+  - first:
+      213: -148219481235993114
+    second: Move_Patterns_13
+  - first:
+      213: -9214784706491059659
+    second: Move_Patterns_14
+  - first:
+      213: 1922276782349817534
+    second: Move_Patterns_15
+  - first:
+      213: 763439419137524135
+    second: Move_Patterns_16
+  - first:
+      213: 862286604171264288
+    second: Move_Patterns_17
+  - first:
+      213: 5686264967042760843
+    second: Move_Patterns_18
+  - first:
+      213: -1746174061687032029
+    second: Move_Patterns_19
+  - first:
+      213: 7044273500158862462
+    second: Move_Patterns_20
+  - first:
+      213: 8467663557767897238
+    second: Move_Patterns_21
+  - first:
+      213: -2800214023875087887
+    second: Move_Patterns_22
+  - first:
+      213: 7924216405150359585
+    second: Move_Patterns_23
+  - first:
+      213: 7636050898322575033
+    second: Move_Patterns_24
+  - first:
+      213: 6229026633905961151
+    second: Move_Patterns_25
+  - first:
+      213: -3210083377873141232
+    second: Move_Patterns_26
+  - first:
+      213: 831413067887353849
+    second: Move_Patterns_27
+  - first:
+      213: 7303419834719316691
+    second: Move_Patterns_28
+  - first:
+      213: -3704500014926358247
+    second: Move_Patterns_29
+  - first:
+      213: -2108724823103995838
+    second: Move_Patterns_30
+  - first:
+      213: -785733737455038494
+    second: Move_Patterns_31
+  - first:
+      213: -3639226232974171859
+    second: Move_Patterns_32
+  - first:
+      213: 7335072627142821647
+    second: Move_Patterns_33
+  - first:
+      213: 7458368887869162668
+    second: Move_Patterns_34
+  - first:
+      213: -4921846253095290294
+    second: Move_Patterns_35
+  - first:
+      213: 1156354110515243904
+    second: Move_Patterns_36
+  - first:
+      213: -4086979988039147524
+    second: Move_Patterns_37
+  - first:
+      213: -1423709856674702902
+    second: Move_Patterns_38
+  - first:
+      213: -5379745472697268434
+    second: Move_Patterns_39
+  - first:
+      213: -3567169872145251292
+    second: Move_Patterns_40
+  - first:
+      213: -6269406335104445261
+    second: Move_Patterns_41
+  - first:
+      213: 6700041523977491890
+    second: Move_Patterns_42
+  - first:
+      213: 1214428578859055143
+    second: Move_Patterns_43
+  - first:
+      213: 8347675587719915362
+    second: Move_Patterns_44
+  - first:
+      213: -5088935364743195912
+    second: Move_Patterns_45
+  - first:
+      213: 6198720584953984193
+    second: Move_Patterns_46
+  - first:
+      213: -9214323480752315854
+    second: Move_Patterns_47
+  - first:
+      213: -1947371492576717905
+    second: Move_Patterns_48
+  - first:
+      213: -6370599010647287034
+    second: Move_Patterns_49
+  - first:
+      213: -8163608171149848381
+    second: Move_Patterns_50
+  - first:
+      213: -6900839345426012535
+    second: Move_Patterns_51
+  - first:
+      213: -8550856554872136644
+    second: Move_Patterns_52
+  - first:
+      213: -6447853659636368493
+    second: Move_Patterns_53
+  - first:
+      213: -7987187050094563175
+    second: Move_Patterns_54
+  - first:
+      213: -408835595031324804
+    second: Move_Patterns_55
+  - first:
+      213: -7424131795759025400
+    second: Move_Patterns_56
+  - first:
+      213: -4217533180575348407
+    second: Move_Patterns_57
+  - first:
+      213: -5957612315881193010
+    second: Move_Patterns_58
+  - first:
+      213: -7836787322050398205
+    second: Move_Patterns_59
+  - first:
+      213: 7705428123780436616
+    second: Move_Patterns_60
+  - first:
+      213: 356192766706346466
+    second: Move_Patterns_61
+  - first:
+      213: 2482093866049788186
+    second: Move_Patterns_62
+  - first:
+      213: -5642024635818173704
+    second: Move_Patterns_63
+  - first:
+      213: -8045205404487635911
+    second: Move_Patterns_64
+  - first:
+      213: -5430762284182984449
+    second: Move_Patterns_65
+  - first:
+      213: 5222899103138916105
+    second: Move_Patterns_66
+  - first:
+      213: -1907662696601072740
+    second: Move_Patterns_67
+  - first:
+      213: 1456326216525622327
+    second: Move_Patterns_68
+  - first:
+      213: -517468350900273866
+    second: Move_Patterns_69
+  - first:
+      213: -5887848070257145185
+    second: Move_Patterns_70
+  - first:
+      213: -2468802627277843248
+    second: Move_Patterns_71
+  - first:
+      213: -5890550243583307913
+    second: Move_Patterns_72
+  - first:
+      213: -5065537519770064281
+    second: Move_Patterns_73
+  - first:
+      213: -3007737891587330448
+    second: Move_Patterns_74
+  - first:
+      213: -596751434102723711
+    second: Move_Patterns_75
+  - first:
+      213: 1087443644649793650
+    second: Move_Patterns_76
+  - first:
+      213: -4331635353244848066
+    second: Move_Patterns_77
+  - first:
+      213: 9189768099853093559
+    second: Move_Patterns_78
+  - first:
+      213: -5683855118099472241
+    second: Move_Patterns_79
+  - first:
+      213: -9091888498875495547
+    second: Move_Patterns_80
+  - first:
+      213: -2197900121413424782
+    second: Move_Patterns_81
+  - first:
+      213: 5715371287428703445
+    second: Move_Patterns_82
+  - first:
+      213: -4325238783141338261
+    second: Move_Patterns_83
+  - first:
+      213: -1328192344800660845
+    second: Move_Patterns_84
+  - first:
+      213: 913989836170196290
+    second: Move_Patterns_85
+  - first:
+      213: -2813287130313105934
+    second: Move_Patterns_86
+  - first:
+      213: 1787936843515543353
+    second: Move_Patterns_87
+  - first:
+      213: 2827026942357559574
+    second: Move_Patterns_88
+  - first:
+      213: 9108630023250667844
+    second: Move_Patterns_89
+  - first:
+      213: -4363154736674259170
+    second: Move_Patterns_90
+  - first:
+      213: 6513026049747662071
+    second: Move_Patterns_91
+  - first:
+      213: 1641802230253782844
+    second: Move_Patterns_92
+  - first:
+      213: -1879036947164817047
+    second: Move_Patterns_93
+  - first:
+      213: 7850104375614524160
+    second: Move_Patterns_94
+  - first:
+      213: 2643825947820857062
+    second: Move_Patterns_95
+  - first:
+      213: 1682940325755532708
+    second: Move_Patterns_96
+  - first:
+      213: 844243858116541693
+    second: Move_Patterns_97
+  - first:
+      213: 1385359962894814924
+    second: Move_Patterns_98
+  - first:
+      213: 2312101227472510929
+    second: Move_Patterns_99
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +332,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +341,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 11
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +368,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -80,7 +380,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +392,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +401,2107 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Move_Patterns_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77bc2e40d2cca300800000000000000
+      internalID: 264800678028556159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f60c37da03c3aad0800000000000000
+      internalID: -2692093700909299976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590098cb761462630800000000000000
+      internalID: 3901878040963645589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcba54d4a823acb60800000000000000
+      internalID: 7767076076937128909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac31c1a8a2b5ce80800000000000000
+      internalID: -8158918712573739865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0495b96b0c62b2000800000000000000
+      internalID: 12146033137768768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b62460f933530a0800000000000000
+      internalID: -6902554095777584380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f6199ce3c24f5e0800000000000000
+      internalID: -1876826496525308117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38830c9c6d0028500800000000000000
+      internalID: 396880639669844099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d9b2998b2d4c440800000000000000
+      internalID: 4955317180299975976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0220fdd775e9a5ba0800000000000000
+      internalID: -6099388646708805088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22060e9063bb72e50800000000000000
+      internalID: 6784597204425269282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6081e21cbc627e290800000000000000
+      internalID: -7861271967990671354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edc228ca2b61fdf0800000000000000
+      internalID: -148219481235993114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532f5e7a1228e1080800000000000000
+      internalID: -9214784706491059659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb611f38c8c4daa10800000000000000
+      internalID: 1922276782349817534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a109395b18489a00800000000000000
+      internalID: 763439419137524135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021c430191577fb00800000000000000
+      internalID: 862286604171264288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8005534cdba9ee40800000000000000
+      internalID: 5686264967042760843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327b42941f754c7e0800000000000000
+      internalID: -1746174061687032029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74aaad1d6942c160800000000000000
+      internalID: 7044273500158862462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690a646642f238570800000000000000
+      internalID: 8467663557767897238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1bbd37e24a329d0800000000000000
+      internalID: -2800214023875087887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1206f4016d878fd60800000000000000
+      internalID: 7924216405150359585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bec151a5d3b8f960800000000000000
+      internalID: 7636050898322575033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8796288b2f17650800000000000000
+      internalID: 6229026633905961151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0124c72fc2e7373d0800000000000000
+      internalID: -3210083377873141232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_27
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff1b0db7c5c98b00800000000000000
+      internalID: 831413067887353849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daacfdf4a5fa5560800000000000000
+      internalID: 7303419834719316691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91992eb1dd8f69cc0800000000000000
+      internalID: -3704500014926358247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24086d522fd4cb2e0800000000000000
+      internalID: -2108724823103995838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_31
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efc3fa24538815f0800000000000000
+      internalID: -785733737455038494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_32
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21aa46c50fde7dc0800000000000000
+      internalID: -3639226232974171859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f070a8601b96bc560800000000000000
+      internalID: 7335072627142821647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca44445ccf2718760800000000000000
+      internalID: 7458368887869162668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4afa2de8e612bbb0800000000000000
+      internalID: -4921846253095290294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_36
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08be2d7dfe13c0010800000000000000
+      internalID: 1156354110515243904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffdbc8ca512847c0800000000000000
+      internalID: -4086979988039147524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac99ea1bd67fd3ce0800000000000000
+      internalID: -1423709856674702902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e270dd5eefd4755b0800000000000000
+      internalID: -5379745472697268434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4248e45a6edde7ec0800000000000000
+      internalID: -3567169872145251292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4148ba7289ef8a0800000000000000
+      internalID: -6269406335104445261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b59b0984445bfc50800000000000000
+      internalID: 6700041523977491890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_43
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728f9ffab548ad010800000000000000
+      internalID: 1214428578859055143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_44
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267ee3a18b6e8d370800000000000000
+      internalID: 8347675587719915362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f21f838f387069b0800000000000000
+      internalID: -5088935364743195912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_46
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c47510a787460650800000000000000
+      internalID: 6198720584953984193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_47
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232a7342d95202080800000000000000
+      internalID: -9214323480752315854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_48
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa31e33f1fb89f4e0800000000000000
+      internalID: -1947371492576717905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bd9e3e3f51797a0800000000000000
+      internalID: -6370599010647287034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c01329fe9905be80800000000000000
+      internalID: -8163608171149848381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_51
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986e7d37d2b4b30a0800000000000000
+      internalID: -6900839345426012535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_52
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c96898441455980800000000000000
+      internalID: -8550856554872136644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_53
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bfbad324f9486a0800000000000000
+      internalID: -6447853659636368493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_54
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990738422bfc72190800000000000000
+      internalID: -7987187050094563175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_55
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c775f924136835af0800000000000000
+      internalID: -408835595031324804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_56
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803b91c677f28f890800000000000000
+      internalID: -7424131795759025400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_57
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949026feaef4875c0800000000000000
+      internalID: -4217533180575348407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_58
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1c86ad92f425da0800000000000000
+      internalID: -5957612315881193010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_59
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 44
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308b6e0a3732e3390800000000000000
+      internalID: -7836787322050398205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882dc30bd0e2fea60800000000000000
+      internalID: 7705428123780436616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_61
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e968132f6371f400800000000000000
+      internalID: 356192766706346466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_62
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19d211783b227220800000000000000
+      internalID: 2482093866049788186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_63
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa1e088c7083b1b0800000000000000
+      internalID: -5642024635818173704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_64
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c26785f40b95090800000000000000
+      internalID: -8045205404487635911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_65
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff82fa7d97e02a4b0800000000000000
+      internalID: -5430762284182984449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_66
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9072d4cef077b7840800000000000000
+      internalID: 5222899103138916105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_67
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b44d972ee9685e0800000000000000
+      internalID: -1907662696601072740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_68
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c291d5af8e53410800000000000000
+      internalID: 1456326216525622327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_69
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63df41ac64591d8f0800000000000000
+      internalID: -517468350900273866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a8ad010692a4ea0800000000000000
+      internalID: -5887848070257145185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_71
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d49d8c371d0dbdd0800000000000000
+      internalID: -2468802627277843248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_72
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f40af43cf804ea0800000000000000
+      internalID: -5890550243583307913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a21b1d67893b9b0800000000000000
+      internalID: -5065537519770064281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_74
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e6472c25e5246d0800000000000000
+      internalID: -3007737891587330448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_75
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b2a1f7bb9e7b7f0800000000000000
+      internalID: -596751434102723711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_76
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2786b98bb30671f00800000000000000
+      internalID: 1087443644649793650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_77
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e303151a890f2e3c0800000000000000
+      internalID: -4331635353244848066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_78
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bac5f7b56d988f70800000000000000
+      internalID: 9189768099853093559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_79
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8025ea62e3ee11b0800000000000000
+      internalID: -5683855118099472241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b0117c49f13d180800000000000000
+      internalID: -9091888498875495547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_81
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2796d5b0c7d7f71e0800000000000000
+      internalID: -2197900121413424782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_82
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4a7a297e3115f40800000000000000
+      internalID: 5715371287428703445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_83
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b632e1a2e3aa9f3c0800000000000000
+      internalID: -4325238783141338261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_84
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39273c67910519de0800000000000000
+      internalID: -1328192344800660845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_85
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245fd39d9e42fac00800000000000000
+      internalID: 913989836170196290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_86
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd528aa24235f8d0800000000000000
+      internalID: -2813287130313105934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_87
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fb396161700d810800000000000000
+      internalID: 1787936843515543353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_88
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6195ead960e9b3720800000000000000
+      internalID: 2827026942357559574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_89
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449605e1fba586e70800000000000000
+      internalID: 9108630023250667844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fb77c42e5f273c0800000000000000
+      internalID: -4363154736674259170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_91
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4331c4faae26a50800000000000000
+      internalID: 6513026049747662071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_92
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3788b50e6ad8c610800000000000000
+      internalID: 1641802230253782844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_93
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96918642ad15ce5e0800000000000000
+      internalID: -1879036947164817047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_94
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b4e36865c21fc60800000000000000
+      internalID: 7850104375614524160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_95
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e692d321b1c0b420800000000000000
+      internalID: 2643825947820857062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_96
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5b6d64f410b5710800000000000000
+      internalID: 1682940325755532708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_97
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc77d2e05b57bb00800000000000000
+      internalID: 844243858116541693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_98
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccec46adb89c93310800000000000000
+      internalID: 1385359962894814924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Patterns_99
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df5e3cf0db361020800000000000000
+      internalID: 2312101227472510929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
