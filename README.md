@@ -1,2 +1,2 @@
 # CompassPointless
-Unity Game for fun
+2D unity strategy game
