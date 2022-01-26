@@ -1,2 +1,2 @@
 # CompassPointless
-2D unity strategy game
+2D unity strategy game working title... compass pointless
